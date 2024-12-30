@@ -26,9 +26,9 @@ docker compose up -d
 
 Запустите скрипт инициализации MongoDB. Убедитесь, что вы находитесь в той же директории sharding-repl-cache, где находится папка scripts:
 
-    
+
 	<путь_к_вашей_директории>\sharding-repl-cache\scripts\mongo-init-2.sh
-    
+
 
 ## Шаг 4: Проверьте заполнение базы данных
 
@@ -37,7 +37,7 @@ docker compose up -d
 ```
 docker exec -it mongos_router mongosh --host 173.17.0.12 --port 27020     
 ```
-    
+
 2. Выполните команду для проверки количества документов:
 ```
 db.helloDoc.countDocuments();     
