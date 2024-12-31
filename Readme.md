@@ -27,7 +27,7 @@ docker compose up -d
 Запустите скрипт инициализации MongoDB. Убедитесь, что вы находитесь в той же директории sharding-repl-cache, где находится папка scripts:
 
 
-	<путь_к_вашей_директории>\sharding-repl-cache\scripts\mongo-init-2.sh
+	<путь_к_вашей_директории>\sharding-repl-cache\scripts\mongo-init.sh
 
 
 ## Шаг 4: Проверьте заполнение базы данных
